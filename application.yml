@@ -1,6 +1,6 @@
 eureka:
  client:
-  register-with-ruteka: true
+  register-with-eureka: true
   fetch-registry: true
   service-url:
    defaultZone: http://locahost:8762/eureka
