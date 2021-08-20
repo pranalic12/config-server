@@ -1,0 +1,9 @@
+eureka:
+ client:
+  register-with-ruteka: true
+  fetch-registry: true
+  service-url:
+   defaultZone: http://locahost:8762/eureka
+instance:
+ hostname: localhost
+
